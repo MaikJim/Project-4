@@ -1,7 +1,7 @@
 # Project-4
 Project 4 deals with a responsive form which contains validation of each of the different fields.
 
-# Comenzando 🚀
+- Comenzando 🚀
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 Mira Deployment para conocer como desplegar el proyecto.
