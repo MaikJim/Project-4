@@ -1,12 +1,12 @@
 # Project-4
 Project 4 deals with a responsive form which contains validation of each of the different fields.
 
-- Comenzando 🚀
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+# Starting 🚀
+This project is hosted in a public repository so you just have to do a git fork to this url https://github.com/MaikJim/Project-4 and you will have a version of the current project.
 
-Mira Deployment para conocer como desplegar el proyecto.
+See Deployment to learn how to deploy the project.
 
-# Pre-requisitos 📋
+# Pre-requirements 📋
 Que cosas necesitas para instalar el software y como instalarlas
 
 Da un ejemplo
