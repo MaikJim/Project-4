@@ -1,0 +1,19 @@
+{
+  "name": "project-4",
+  "version": "1.0.0",
+  "description": "Project 4 deals with a responsive form which contains validation of each of the different fields.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaikJim/Project-4.git"
+  },
+  "author": "Maikol Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaikJim/Project-4/issues"
+  },
+  "homepage": "https://github.com/MaikJim/Project-4#readme"
+}
