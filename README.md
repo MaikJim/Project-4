@@ -12,8 +12,8 @@ All you need to start using Project-4 is a computer and an Internet connection.
 # built with 🛠️
 **Visual Studio Code** 
 
-# Versionado 📌
+# Versioning 📌
 We use npm to set the initial version of the project. For all available versions, see the tags in this repository.
 
-# Autores ✒️
+# Authors ✒️
 > **Maikol Jimenez**
