@@ -1,25 +1,103 @@
+/*General style and typography*/
 *{
     margin: 0;
     padding: 0;
 }
 html{
+    /* 1rem == 10px*/
     font-size: 62.5%;
     font-family: cursive;
 }
 body{
     font-size: 1.6rem;
 }
+h1 {
+    text-decoration: underline;
+    font-size: 4rem;
+    text-align: start;
+}
+/*layout*/
+input, select {
+    padding: .5rem 1rem;
+    margin: 0 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+input#file {
+    border: none;
+}
+input#lname {
+    position: relative;
+    left: 3px;
+}
+input#Tnumber {
+    position: relative;
+    left: 10px;
+}
+input#password {
+    position: relative;
+    left: 15px;
+}
+input#email {
+    position: relative;
+    left: 39px;
+}
+select#country {
+    position: relative;
+    left: 23px;
+    padding: 0.5rem 4.9rem;
+}
+input#date {
+    position: relative;
+    left: 50px;
+    padding: 0.5rem 2.2rem;
+}
+input#file {
+    border: none;
+    margin: 0px;
+    position: relative;
+    left: 70px;
+}
 .form-container {
     display: grid;
     grid-auto-columns: 100%;
-    margin: 50% 0;
+    margin: 11rem 0;
+    padding: 2rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    background: cadetblue;
+    width: 450px;
 }
 .row {
-    margin: 10px 0px;
+    display: flex;
+    margin: 1rem 0.5rem;
+    text-align: start;
+    width: 100%;
 }
-input {
-    padding: 8px;
-    font-size: 15px;
+.center{
+    text-align: center;
+}
+/*Media Query*/
+@media (min-width: 500px)
+{
+    .form-container {
+        margin: 11rem auto;
+        width: 100%;
+        place-items: center;
+    }
+}
+@media (min-width: 1000px)
+{
+    form {
+        display: flex;
+        gap: 2rem;
+    }
+    section {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-items: stretch;
+        justify-content: space-between;
+    }
 }
