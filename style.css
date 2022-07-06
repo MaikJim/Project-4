@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: cursive;
+}
+body{
+    font-size: 1.6rem;
+}
+.form-container {
+    display: grid;
+    grid-auto-columns: 100%;
+    margin: 50% 0;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.row {
+    margin: 10px 0px;
+}
+input {
+    padding: 8px;
+    font-size: 15px;
+}
