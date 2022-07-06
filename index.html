@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Project 4</title>
 </head>
 <body>
@@ -12,48 +13,52 @@
         <div class="form-container">
             <h1>Informative From</h1>
             <form action="">
-                <div class="row">
-                    <label for="fname">First Name:</label>
-                    <input type="text" id="fname" placeholder="Your name...">
-                </div>
-                <div class="row">
-                    <label for="lname">Last Name:</label>
-                    <input type="text" id="lname" placeholder="Your last name...">
-                </div>
-                <div class="row">
-                    <label for="male">Male:</label>
-                    <input type="checkbox" name="male" id="male">
-                    <label for="feminine">Feminine:</label>
-                    <input type="checkbox" name="feminine" id="feminine">
-                </div>
-                <div class="row">
-                    <label for="Tnumber">Telephone:</label>
-                    <input type="text" id="Tnumber" placeholder="###-###-####">
-                </div>
-                <div class="row">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" placeholder="example@example.com">
-                </div>
-                <div class="row">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" placeholder="Your password...">
-                </div>
-                <div>
-                    <label for="country">Country:</label>
-                    <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                    </select>
-                </div>
-                <div class="row">
-                    <label for="date">Date:</label>
-                    <input type="date" id="date">
-                </div>
-                <div class="row">
-                    <label for="file">File:</label>
-                    <input type="file" id="file">
-                </div>
+                <section class="section1">
+                    <div class="row">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" placeholder="Your name...">
+                    </div>
+                    <div class="row">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" placeholder="Your last name...">
+                    </div>
+                    <div class="row center">
+                        <label for="male">Male:</label>
+                        <input type="checkbox" name="male" id="male" class="check">
+                        <label for="feminine">Feminine:</label>
+                        <input type="checkbox" name="feminine" id="feminine">
+                    </div>
+                    <div class="row">
+                        <label for="Tnumber">Telephone:</label>
+                        <input type="text" id="Tnumber" placeholder="###-###-####">
+                    </div>
+                    <div class="row">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="example@example.com">
+                    </div>
+                </section>
+                <section class="section2">
+                    <div class="row">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" placeholder="Your password...">
+                    </div>
+                    <div class="row">
+                        <label for="country">Country:</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="row">
+                        <label for="file">File:</label>
+                        <input type="file" id="file">
+                    </div>
+                </section>
             </form>
         </div>
     </main>
