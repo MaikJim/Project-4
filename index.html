@@ -15,21 +15,16 @@
             <form action="" id="form">
                 <section class="section1">
                     <!-- Group: Name -->
-                    <div id="group__fname" class="from__group">
-                        <div class="row">
-                            <label for="fname">First Name:</label>
-                            <input type="text" id="fname" placeholder="Your name..." name="first-name" >
-                        </div>
-                        <span id="invalid">The name field does not support numbers and special characters</span>
+                    <div class="row">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" placeholder="Your name..." name="first-name" >
                     </div>
-                    <div id="group__lname" class="from__group">
-                        <div class="row">
-                            <label for="lname">Last Name:</label>
-                            <input type="text" id="lname" placeholder="Your last name..." name="last-name" >
-                        </div>
-                        <span
-                        >The name field does not support numbers and special characters</span>
+                    <p id="error__fname"> </p>
+                    <div class="row">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" placeholder="Your last name..." name="last-name" >
                     </div>
+                    <p id="error__lname"> </p>
                     <!-- Group: Sex -->
                     <div class="row center">
                         <label for="male">Male:</label>
@@ -38,31 +33,25 @@
                         <input type="checkbox" name="feminine" id="feminine">
                     </div>
                     <!-- Group: Telephone -->
-                    <div id="group__phone" class="from__group">
-                        <div class="row">
-                            <label for="Tnumber">Telephone:</label>
-                            <input type="number" id="Tnumber" placeholder="###-###-####" name="phone">
-                        </div>
-                        <span>Please write your Telephone number.</span>
+                    <div class="row">
+                        <label for="Tnumber">Telephone:</label>
+                        <input type="number" id="Tnumber" placeholder="###-###-####" name="phone">
                     </div>
+                    <p id="error__phone"> </p>
                     <!-- Group: Email -->
-                    <div id="group__email" class="from__group">
-                        <div class="row">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" placeholder="example@gmail.com.com" name="email">
-                        </div>
-                        <span>Email can only contain letters, numbers, periods, hyphens and underscores.</span>
+                    <div class="row">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="example@gmail.com.com" name="email">
                     </div>
+                    <p id="error__email"> </p>
                 </section>
                 <section class="section2">
                     <!-- Group: Password -->
-                    <div id="group__password" class="from__group">
-                        <div class="row">
-                            <label for="password">Password:</label>
-                            <input type="password" id="password" placeholder="Your password..." name="password">
-                        </div>
-                        <span>The password has to be 4 to 12 digits.</span>
+                    <div class="row">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" placeholder="Your password..." name="password">
                     </div>
+                    <p id="error__password"> </p>
                     <!-- Group: Country -->
                     <div class="row">
                         <label for="country">Country:</label>
